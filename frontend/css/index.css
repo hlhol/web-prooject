@@ -46,7 +46,7 @@ body {
 }
 
 .navbar a:hover {
-    background-color: var(--fivethary-color);
+    background-color: var(--primery-color);
     color: var(--thirdery-color-dark);
     cursor: pointer;
     padding: 1rem; 
