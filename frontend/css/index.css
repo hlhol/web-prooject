@@ -21,7 +21,7 @@ body {
     width: 100%;
     padding: 1.3rem;
     color: var(--secundary-color);
-    text-align:left;
+    text-align: left;
     font-size: 1.8rem;
     background-color: var(--primery-color);
     font-weight: bold;
@@ -36,17 +36,17 @@ body {
     font-weight: bold;
 }
 
-#n1{
+#n1 {
     flex-grow: 0.3;
 }
 
-#main_img{
+#main_img {
     padding-top: 0.7rem;
     width: 100%;
     height: 800px;
 }
 
-.main_continur{
+.main_continur {
     display: flex;
     gap: 1rem;
     justify-content: space-between;
@@ -54,7 +54,7 @@ body {
     padding: 7rem;
 }
 
-.About_us{
+.About_us {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -62,13 +62,11 @@ body {
     width: 40%;
 }
 
-
-
-.About_us p{
+.About_us p {
     font-size: 1.3rem;
 }
 
-.About_us h2{
+.About_us h2 {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
@@ -86,7 +84,7 @@ body {
     height: 30rem;
 }
 
-.login_rigester{
+.login_rigester {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -94,7 +92,7 @@ body {
     width: 40%;
 }
 
-.login_rigester h2{
+.login_rigester h2 {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
@@ -104,10 +102,8 @@ body {
     padding: 0.5rem;
     background-color: var(--fivethary-color);
     border: none;
-    border-radius: 50px; /* Make the ends round */
+    border-radius: 50px; 
 }
-
-
 
 #names {
     display: flex;
@@ -120,8 +116,107 @@ body {
 }
 
 .login_form {
+    padding-top: 1.2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    width: 100%;
 }
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+}
+
+.login_form button {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color: var(--secundary-color);
+    border: none;
+    border-radius: 50px; /* Make the ends round */
+    width: 20%;
+    color: var(--primery-color);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.login_form button:hover {
+    background-color: var(--fivethary-color);
+    cursor: pointer;
+    color: var(--thirdery-color-dark);
+    transition: all 0.5s ease;
+}
+
+.login_form a {
+    margin-top: 1rem;
+    color: var(--secundary-color);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.login_form a:hover {
+    color: var(--thirdery-color-dark);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secundary-color);
+    color: var(--primery-color);
+    padding: 1rem;
+    width: 100%;
+}
+
+#contact h2 {
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.way {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.4rem; 
+    margin: 0 10rem;
+}
+
+.way ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0; 
+    font-size: 1.2rem;
+}
+
+.way p {
+    font-size: 1.2rem;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--secundary-color);
+    color: var(--primery-color);
+}
+
+#value_contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    margin-left: 0%;
+    padding-top: 2rem;
+}
+
