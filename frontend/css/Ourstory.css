@@ -59,6 +59,10 @@ body {
 
 /* Add styles for the main section */
 
+main {
+    height: 80vh;
+}
+
 h2 {
     font-size: 2rem;
     font-weight: bold;
