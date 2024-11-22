@@ -7,11 +7,17 @@
     --sixth-color:#f7982d;
 }
 
+:root{
+    --primary-font: 'Arial';
+    --secondary-font: sans-serif;
+    --third-font: 'Courier New', monospace;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--primary-font)
 }
 
 body {
@@ -30,6 +36,8 @@ body {
     padding: 1.6rem;
     font-size: 1.1rem;
     color:var( --sixth-color);
+    font-family: var(--primary-font);
+    font-weight: bold;
     font-style: italic;
 }
 
@@ -46,6 +54,7 @@ body {
     color: var(--primary-color);
     text-decoration: none;
     font-size: 1rem;
+    font-family: var(--primary-font);
     padding: 0.5rem;
     transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease;
 }
@@ -63,9 +72,9 @@ body {
 
 #home {
     width: 100%;
-    height: auto; /* اجعل الارتفاع تلقائي */
-    max-height: 40em; /* التحكم في الحد الأقصى للارتفاع */
-    object-fit: cover; /* تأكد من أن الصورة تغطي المساحة بشكل جيد */
+    height: auto;
+    max-height: 40em;
+    object-fit: cover;
 }
 
 .image-container {
@@ -110,27 +119,30 @@ body {
 
 .About_us p {
     font-size: 1rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--secondary-font);
     text-align: left;
-    font-weight: bold;
     margin-bottom:1rem;
+    text-align: center;
 }
 
 
 .About_us p span {
     color: var(--sixth-color);
     font-style: italic;
+    font-weight: bold;
 }
+
 
 .About_us h2 {
     font-size: 1.1rem;
     font-weight: bold;
     text-align: center;
-    color: var(--secondary-color); ;
+    font-family: var(--primary-font);
+    color: var(--secondary-color); 
 }
 
 #aim-points{
-text-align: center;
+    text-align: center;
 }
 
 .aims h2{
@@ -138,14 +150,16 @@ text-align: center;
     text-align: center;
     font-size: 1.1rem;
     color: var(--secondary-color);
+    font-family: var(--primary-font);
 }
 
 .aims h3{
     margin-top: 1rem;
     text-align: center;
+    font-family: var(--primary-font);
 }
 .aims li{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
     font-size: 0.9rem;
 }
 
@@ -178,6 +192,8 @@ text-align: center;
     font-weight: bold;
     text-align: center;
     color: var(--secondary-color);
+    font-family: var(--primary-font);
+
 }
 
 .login_rigester input {
@@ -228,14 +244,15 @@ text-align: center;
 }
 .login_form label{
     padding: 0.5rem;
-}
+    font-family: var(--primary-font);
+    font-weight: bold;
 
+}
 
 .input-form {
     display: flex;
     flex-direction: column;
-    width: 80%;
-    
+    width: 80%;    
 }
 
 .login_form button {
@@ -246,17 +263,19 @@ text-align: center;
     border-radius: 50px; /* Make the ends round */
     width: 25%;
     color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-weight: bold;
     font-size: 0.8rem;
     margin: 0.3rem;   
 }
 
 .login_form a {
     color: var(--secondary-color);
+    font-family: var(--secondary-font);
     font-weight: bold;
     font-size: 0.8rem;
     text-decoration: none;
     padding-bottom: 4rem;
-
 }
 
 .login_form a:hover {
@@ -287,6 +306,7 @@ footer {
     display: flex;
     justify-content: space-between;
     gap: 1rem; 
+    
 }
 
 .way ul, .way li {
@@ -296,11 +316,15 @@ footer {
     font-size: 0.8rem;
     display: inline;
     padding: 0.7rem;
+    font-family: var(--primary-font);
+    font-weight: bold;
 }
 
 .way p {
     font-size: 0.8rem;
     padding: 0.7rem;
+    font-family: var(--primary-font);
+    font-weight: bold;
 }
 
 #contact {
@@ -340,13 +364,13 @@ a {
 float: left;
 margin-left: 3rem;
 margin-right: 3rem;
-font-family: arial;
+font-family: var(--primary-font);
 font-size: 0.7rem;
 }
 
 .main_container p{
     margin-bottom: 1.5rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--secondary-font);
     font-size: 0.9rem;
 }
 
@@ -360,7 +384,7 @@ font-size: 0.7rem;
     color: var(--sixth-color);
     font-size: 1rem;
     margin: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--primary-font)
 }
 
 #slider-container
