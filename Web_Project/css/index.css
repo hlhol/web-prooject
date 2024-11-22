@@ -533,5 +533,5 @@ margin-left: -60%;
 
 #summary p, #challenges p, #project-work p, #technical-learning p{
     font-family: var(--secondary-font);
-    text-align: center;
+    text-align:left;
 }
