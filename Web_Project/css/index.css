@@ -535,3 +535,6 @@ margin-left: -60%;
     font-family: var(--secondary-font);
     text-align:left;
 }
+#ourstory-img1,#ourstory-img2,#ourstory-img3{
+    height: 20em;
+}
