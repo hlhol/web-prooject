@@ -89,11 +89,7 @@ main{
 #home {
     width: 100%;
     height: auto;
-<<<<<<< HEAD
     max-height: 40em; 
-=======
-    max-height: 40em;
->>>>>>> 2da3a868368ce8b8d8d36d6964ca5ed393af36b6
     object-fit: cover;
 }
 
@@ -315,7 +311,7 @@ footer {
     width: 100%;
     margin-top: auto;
     position: absolute;
-    top:100rem;
+    top:105rem;
 }
 
 .icon img {
