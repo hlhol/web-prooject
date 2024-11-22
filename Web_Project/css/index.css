@@ -31,6 +31,7 @@ body {
     background-color: var(--primary-color);
     padding: 0.5rem;
 }
+
 #vision{
     float: right;
     padding: 1.6rem;
@@ -134,7 +135,6 @@ body {
     font-style: italic;
     font-weight: bold;
 }
-
 
 .About_us h2 {
     font-size: 1.1rem;
@@ -467,7 +467,6 @@ margin-left: -40%;
 margin-left: -60%;
 }
 
-
 /* CSS for Automatic Navigation*/
 
 .navigation-auto{
@@ -509,3 +508,15 @@ margin-left: -60%;
 }
 
 /* End of Sliders*/
+
+/* Our story */
+#summary h2, #challenges h2, #project-work h2, #technical-learning h2{
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+    text-align: center;
+}
+
+#summary p, #challenges p, #project-work p, #technical-learning p{
+    font-family: var(--secondary-font);
+    text-align: center;
+}
