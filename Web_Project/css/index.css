@@ -207,7 +207,7 @@ color: var(--secondary-color);
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
     width: 90%;
     font-size: 0.8rem;
 }
