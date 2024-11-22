@@ -61,26 +61,30 @@ body {
     flex-grow: 0.6;
 }
 
-#home{
-width: 100%;
-height: 50em;
-position: relative
+#home {
+    width: 100%;
+    height: auto; /* اجعل الارتفاع تلقائي */
+    max-height: 40em; /* التحكم في الحد الأقصى للارتفاع */
+    object-fit: cover; /* تأكد من أن الصورة تغطي المساحة بشكل جيد */
 }
 
-.image-container{
+.image-container {
     position: relative;
     width: 100%;
-    height: 50em;
+    height: auto;
 }
-.heading{
-    width:35rem;
-    color:var(--primary-color);
+
+.heading {
+    width: 35rem;
+    color: var(--primary-color);
     position: absolute;
-    top: 50%;
-    left: 20rem;
+    top: 27%;
+    left: 25%;
     transform: translate(-50%, -50%);
     z-index: 1;
     font-size: 3rem;
+    text-align: left;
+
 }
 
 .main_container {
@@ -110,6 +114,12 @@ position: relative
     text-align: left;
     font-weight: bold;
     margin-bottom:1rem;
+}
+
+
+.About_us p span {
+    color: var(--sixth-color);
+    font-style: italic;
 }
 
 .About_us h2 {
