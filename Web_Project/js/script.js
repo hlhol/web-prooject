@@ -1,11 +1,20 @@
-//Slider
+// Get data from the form:
+let firstName = document.getElementById('firstName').value; 
+let lastName = document.getElementById("lastName").value;
+let email = document.getElementById("email").value;
+let mobile = document.getElementById("mobileNum").value;
 
-var counter=1;
-setInterval(() => { //select ratio followed with the current counter
-    document.getElementById('radio' + counter).checked = true;
-    counter++;
-
-    if (counter > 4) {  // If the counter exceeds 4 
-        counter = 1; //reset it to 1
+// validate the inputes to ensure they are not empty and with some specific format
+if (firstName.length && lastName.length > 2) {
+    if (email.includes("@") && email.includes(".")) {
+        if (mobile.length == 8){
+            
+        }else{
+            console.log("Please enter your mobile number proberly");
+        }
+    }else{
+        console.log("Please enter your email proberly");
     }
-}, 3000); // 3000 milliseconds equals 3 seconds
+}else {
+    console.log("Please enter your first and last name proberly it must be minumum 3 characters");
+}
