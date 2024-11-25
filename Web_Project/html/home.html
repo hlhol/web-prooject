@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="../css/index.css">
-    <script src="../js/script.js"></script>
 </head>
 
 <body>
@@ -112,8 +111,8 @@
     <!--Image slider ends -->
 </div>
         <section class="login_rigester">
-            <h2>Register Your Details</h2>
-            <form action="post" class="login_form">
+            <h2 id="switchToLogin">Register Your Details</h2>
+            <form action="" class="login_form" id="form">
 
                     <!-- Form -->
 
@@ -139,8 +138,8 @@
                     <input type="text" name="Email" id="email">
                 </div>
                 
-                <button>SIGN UP</button>
-                <a href="">LOGIN INTO AN EXISTING ACCOUNT</a>
+                <button type="button" onclick="handelLogin()">SIGN UP</button>
+                <a id="switcher" onclick="switchLogin()">LOGIN INTO AN EXISTING ACCOUNT</a>
                 
 
             </form>
@@ -183,7 +182,7 @@
         </div>
     </footer>
 
-    
+    <script src="../js/script.js"></script>
 </body>
 </html>
 ,

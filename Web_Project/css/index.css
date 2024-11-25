@@ -424,7 +424,7 @@ font-size: 0.7rem;
 }
 .slider{
     width: 100%;
-    height: 100vh; 
+    height: 50vh; 
     border-radius: 1em;
     float: left;
     border-radius: 0.1em;
@@ -433,7 +433,7 @@ font-size: 0.7rem;
 }
 .slides{
     width: 500%;
-    height: 50em;
+    height: 10em;
     display: flex;
 }
 .slides input{
