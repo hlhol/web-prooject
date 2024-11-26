@@ -645,7 +645,7 @@ main {
 }
 
 /* Welcome Message Styling */
-#welcome-message {
+.welcome-message {
     color: #f7982d;
     text-align: left;
     font-size: 24px;
