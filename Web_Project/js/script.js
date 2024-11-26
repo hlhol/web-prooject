@@ -11,36 +11,35 @@ setInterval(() => { //select ratio followed with the current counter
 }, 3000); // 3000 milliseconds equals 3 seconds
 
 const handelLogin = () => {    
-    // Get data from the form:
     let firstName = document.getElementById('firstName').value; 
     let lastName = document.getElementById("lastName").value;
     let email = document.getElementById("email").value;
     let mobile = document.getElementById("mobileNum").value;
 
-    // validate the inputes to ensure they are not empty and with some specific format
     if (firstName.length && lastName.length > 2) {
         if (email.includes("@") && email.includes(".")) {
             if (mobile.length == 8){
                 console.log("Your data has been saved successfully in local storage");
                 localStorage.setItem("firstName", firstName);
-                alert(done);
+                showNotification("Your data has been saved successfully!", true);
 
                 document.getElementById("form").reset();
                 retriveName();
                 
-            }else{
-                console.log("Please enter your mobile number proberly");
-                alert("Please enter your mobile number proberly");
+            } else {
+                console.log("Please enter your mobile number properly");
+                showNotification("Please enter your mobile number properly", false);
             }
-        }else{
-            console.log("Please enter your email proberly");
-            alert("Please enter your email proberly");
+        } else {
+            console.log("Please enter your email properly");
+            showNotification("Please enter your email properly", false);
         }
-    }else {
-        console.log("Please enter your first and last name proberly it must be minumum 3 characters");
-        alert("Please enter your first and last name proberly it must be minumum 3 characters");
+    } else {
+        console.log("Please enter your first and last name properly; they must be at least 3 characters.");
+        showNotification("Please enter your first and last name properly; they must be at least 3 characters.", false);
     }
-}
+};
+
 const switchLogin = () => {
     console.log("Toggle between Register and Login");
 
@@ -70,4 +69,29 @@ const retriveName = () => {
     }
 }
     
+const showNotification = (message, isSuccess = true) => {
+    const notification = document.getElementById("notification");
+    const messageElement = document.getElementById("notification-message");
+    
+    messageElement.innerText = message;
+    notification.style.backgroundColor = isSuccess ? "#4caf50" : "#f44336";
 
+    notification.classList.remove("hidden");
+    notification.style.opacity = "5";
+    notification.style.top = "20px";
+
+    setTimeout(() => {
+        hideNotification();
+    }, 3000);
+};
+
+const hideNotification = () => {
+    const notification = document.getElementById("notification");
+    notification.style.opacity = "0";
+    notification.style.top = "0px";
+    setTimeout(() => {
+        notification.classList.add("hidden");
+    }, 300); 
+};
+
+document.getElementById("close-notification").addEventListener("click", hideNotification);
