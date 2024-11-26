@@ -70,3 +70,11 @@ const retriveName = () => {
     }
 }
 
+    /* this is sfor themaking of page i just added it */ 
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const userFirstName = "John"; // Replace this with the actual user's first name
+        document.getElementById("firstname").textContent = userFirstName;
+    });
+    
+

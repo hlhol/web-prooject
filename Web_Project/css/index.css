@@ -628,4 +628,121 @@ margin-left: -60%;
          width: 96%;
         }
         /* End of admissions page */
+
+
+        /* Start of Making of page */ 
+
+        /* General Main Styling */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.making-ofH2 {
+    color: #04428c;
+    margin: 20px 0;
+}
+
+/* Welcome Message Styling */
+#welcome-message {
+    color: #f7982d;
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Flexbox Layout for Content Rows */
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; /* Adds spacing between items */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    margin: 20px 0;
+}
+
+.content-box {
+    width: 45%; /* Default width for larger screens */
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.text-box p {
+    margin: 0;
+}
+
+.image-box img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Resources Table */
+.resources-table {
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.resources-table th,
+.resources-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.resources-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.resources-table a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.resources-table a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .content-box {
+        width: 100%; /* Boxes take full width on smaller screens */
+    }
+
+    .content-row {
+        flex-direction: column; /* Stacks items vertically */
+        align-items: center; /* Centers items in a column */
+    }
+
+    .resources-table {
+        width: 90%; /* Slightly narrower on smaller screens */
+        font-size: 14px; /* Adjust font size for smaller devices */
+    }
+
+    #welcome-message {
+        font-size: 20px; /* Reduce font size for the welcome message */
+    }
+}
+
+@media (max-width: 480px) {
+    .resources-table {
+        width: 100%; /* Full width on very small devices */
+        font-size: 12px; /* Further reduce font size */
+    }
+
+    .making-ofH2 {
+        font-size: 18px; /* Smaller header size for small screens */
+    }
+}
+
+    
+        /* end of making of page */
     
