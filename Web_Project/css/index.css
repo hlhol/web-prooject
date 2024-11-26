@@ -652,6 +652,42 @@ main {
     font-weight: bold;
 }
 
+/* Mock Up Grid Styling */
+.mockup-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Adds space between items */
+    margin: 20px auto;
+    max-width: 1200px; /* Controls the maximum width of the grid */
+    padding: 0 20px; /* Padding to prevent items from touching the edges */
+    justify-items: center;
+}
+
+.mockup-box {
+    background-color: #e0e0e0; /* Placeholder color */
+    border: 1px solid #ddd; /* Border around each box */
+    border-radius: 8px; /* Rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Keeps the content inside the box */
+}
+
+.mockup-box img {
+    width: 100%; /* Ensures the image takes full width */
+    height: auto; /* Maintains the aspect ratio */
+    object-fit: cover; /* Ensures the image covers the box area */
+}
+
+/* Optional: Add Hover Effect */
+.mockup-box:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+
 /* Flexbox Layout for Content Rows */
 .content-row {
     display: flex;
@@ -673,6 +709,7 @@ main {
 }
 
 .text-box p {
+    text-align: left;
     margin: 0;
 }
 
@@ -680,6 +717,20 @@ main {
     max-width: 100%;
     border-radius: 8px;
     height: auto; /* Maintain aspect ratio */
+}
+
+.names-list {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 20px auto; /* Centers the list */
+    text-align: center; /* Aligns the text to the center */
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Neutral color for the names */
+}
+
+.names-list li {
+    margin: 10px 0; /* Adds spacing between names */
 }
 
 /* Resources Table */
