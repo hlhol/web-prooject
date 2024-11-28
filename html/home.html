@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="../img/logo.jpg" alt="logo img">
+
+        <div id="vision">
+            Learning Today, Leading Tomorrow!
+        </div>
+
+        <nav class="navbar">
+            <div id="n1"><a href="#home.html">HOME</a></div>
+            <div id="n2"><a href="admissions.html">ADMISSIONS</a></div>
+            <div id="n3"><a href="community.html">COMMUNITY</a></div>
+            <div id="n4"><a href="news.html">NEWS</a></div>
+            <div id="n5"><a href="making-of.html">MAKING OF</a></div>
+            <div id="n6"><a href="our-story.html">OUR STORY</a></div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="image-container">
+        <img id=home src="../img/home.png" alt="home img">
+        <h1 class="heading">Educational Excellence for a Creative Generation</h1>  
+        </div>
+ 
+        <div class="main_container"> 
+        <section class="About_us">
+            <h2>About Us</h2>
+
+                <p>
+                    Welcome are a primary and middle school located in Bahrain, where learning meets inspiration and a commitment to excellence. Our mission is to provide a high-quality education that empowers students to achieve their full potential, fostering academic success and <span>personal growth</span>  in a supportive environment. With a curriculum that meets international standards and is enriched by a strong connection to local culture and values, we inspire curiosity, creativity, and critical thinking in young minds.
+                </p>
+
+                <p>
+                    Our team of passionate educators focuses on individualized learning, nurturing each student’s unique strengths and aspirations. Beyond academics, we prioritize instilling values of integrity, respect, and resilience, preparing students not only for academic success but also for a lifetime of meaningful contributions to their communities.
+                </p>
+
+        </section>
+
+
+        <section class="aims">
+            <h2>Aims</h2>
+            <h3>We aim for all our children to:</h3>
+          
+             <div id="points">
+                <ul>
+                    <li>Contribute to the life and work of the school with energy and enthusiasm.</li>
+                    <li>Take responsibility for their actions and show respect for themselves and others.</li>
+                    <li>Believe in their abilities and value themselves, helping them to recognize their strengths and achievements.</li>
+                    <li>Work both individually and cooperatively.</li>
+                    <li>Develop the knowledge and skills necessary.</li>
+                    <li>Be confident, curious, and compassionate with a love of learning.</li>
+                </ul>
+             </div>
+           
+        </section>
+
+        <!--Image slider starts -->
+<div id="slider-container">
+    <div class="slider">
+        <div class="slides">
+            <!-- radio buttons starts -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!-- radio buttons ends -->
+    
+            <!-- slide images starts -->
+             <div class="slide first">
+                <img src="../img/pic1.jpg" alt="School Picture">
+             </div>
+             <div class="slide">
+                <img src="../img/pic2.jpg" alt="School Picture">
+             </div>
+             <div class="slide">
+                <img src="../img/pic3.jpg" alt="School Picture">
+             </div>
+             <div class="slide">
+                <img src="../img/pic4.jpg" alt="School Picture">
+             </div>
+            <!-- slide images ends-->
+    
+             <!-- automatic navigation starts -->
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+              </div>
+              <!-- automatic navigation ends -->
+              </div>
+    
+              <!-- manual navigation starts -->
+               <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+               </div>
+              <!-- manual navigation ends -->
+            </div>
+    <!--Image slider ends -->
+</div>
+
+        <div id="notification" class="hidden">
+            <span id="notification-message"></span>
+            <button id="close-notification">&times;</button>
+        </div>
+        
+        <section class="login_rigester">
+            <h2 id="switchToLogin">Register Your Details</h2>
+            <form action="" class="login_form" id="form">
+
+                    <!-- Form -->
+
+                    <div class="input-form">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" name="first_name" id="firstName">
+                    </div>
+
+
+                    <div class="input-form">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" name="last_name" id="lastName">
+                    </div>
+                    
+                  
+                    <div class="input-form">
+                        <label for="Mobile Number">MOBILE NUMBER</label>
+                        <input type="text" name="Mobile Number" id="mobileNum">
+                    </div>
+
+                <div class="input-form">
+                    <label for="Email">EMAIL</label>
+                    <input type="text" name="Email" id="email">
+                </div>
+                
+                <button type="button" onclick="handelLogin()">SIGN UP</button>
+                <a id="switcher" onclick="switchLogin()">LOGIN INTO AN EXISTING ACCOUNT</a>
+                
+
+            </form>
+        </section>
+        </div>
+    </main>
+
+    <footer>
+        <div id="contact">         
+            <div id="contact_value">
+            <div class="way">
+                <div class="icon">
+                    <img src="../img/phone.svg" alt="phone">
+                </div>
+                <ul>
+                    <li>+973 3355 0000</li>
+                    <li>+973 3355 1000</li>
+                    <li>+973 1711 0000</li> 
+ 
+                </ul>
+            </div>
+
+            <div class="way">
+                <div class="icon">
+                    <img src="../img/email.svg" alt="Email">
+                </div>
+                <ul>
+                    <li><a href="mailto:Info@bluesky.edu.bh">Info@bluesky.edu.bh</a></li>
+                    <li><a href="mailto:Registration@bluesky.bh">Registration@bluesky.bh</a></li>
+                </ul>
+            </div>
+
+            <div class="way">
+                <div class="icon">
+                    <img src="../img/location.svg" alt="location">
+                </div>
+                <p>Road 4003, Block 840, Isa Town</p>
+            </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
