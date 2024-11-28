@@ -711,7 +711,8 @@ margin-left: -60%;
         margin-top: 1rem;
          width: 90%;
          height: 38rem;
-          
+          object-fit: cover;
+
         }
     #school-values {
         background-color: #cddff6;
