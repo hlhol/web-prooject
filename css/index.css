@@ -426,7 +426,7 @@ display: flex;
     width: 50em;
 }
 .slider{
-    width: 100%;
+    width: 500%;
     height:50vh; 
     border-radius: 1em;
     float: left;
