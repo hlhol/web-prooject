@@ -148,7 +148,7 @@ main{
 }
  
  
-.About_us p span {
+.About_us p span, #points span {
     color: var(--sixth-color);
     font-style: italic;
     font-weight: bold;
