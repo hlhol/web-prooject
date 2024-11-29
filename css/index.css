@@ -118,8 +118,6 @@ main{
 }
 
 
-
-
 .main_container {
     display: inline-block;
     gap: 1rem;
@@ -427,11 +425,7 @@ display: flex;
 }
 .slider{
     width: 100%;
-<<<<<<< HEAD
-    height:50vh; 
-=======
     height:20vh;
->>>>>>> b02f938cbf7bb087aa2e8783e02f98d647f16c04
     border-radius: 1em;
     float: left;
     border-radius: 0.1em;
