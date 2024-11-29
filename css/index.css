@@ -216,8 +216,8 @@ main{
     margin-top: 5rem;
 }
 
-.login_rigester h2 {
-    font-size: 1.1rem;
+.login_rigester h1 {
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
     color: var(--secondary-color);
