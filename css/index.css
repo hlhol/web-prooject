@@ -430,22 +430,12 @@ display: flex;
     border-radius: 1em;
     float: left;
     border-radius: 0.1em;
-<<<<<<< Updated upstream
-    overflow-block:hidden ;
-    position: relative;
- 
-}
- 
- 
- 
-=======
     overflow:hidden;
     position: relative;
 }
 
 
 
->>>>>>> Stashed changes
 .slides{
     width: 500%;
     height: 10em;
