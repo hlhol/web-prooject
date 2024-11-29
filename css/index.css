@@ -212,6 +212,7 @@ main{
     float:right;
     margin-left: 20rem;
     margin-top: 5rem;
+    margin: 0 auto;
 }
  
 .login_rigester h1 {
@@ -700,10 +701,10 @@ margin-left: -60%;
         #title-Achievements {
             text-align: center;
         }
-     #School-Achievement, p span {
+     /* #School-Achievement, p span {
         display: block;
          margin-top: 2%;
-        }
+        } */
         /*End of Achievements style*/
     #School-Overview {
         width:100%;
