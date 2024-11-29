@@ -116,10 +116,8 @@ main{
     line-height: 1;
     padding-top: 0.5em;
 }
-
-
-
-
+ 
+ 
 .main_container {
     display: inline-block;
     gap: 1rem;
@@ -431,9 +429,13 @@ display: flex;
     border-radius: 1em;
     float: left;
     border-radius: 0.1em;
-    overflow: hidden;
+    overflow-block:hidden ;
     position: relative;
+ 
 }
+ 
+ 
+ 
 .slides{
     width: 500%;
     height: 10em;
@@ -681,8 +683,9 @@ margin-left: -60%;
             margin-top: 1rem;
             text-align: center;
         }
-        
-        
+       
+                #School-Achievement h3 {text-align: center;}
+ 
         #School-Achievement .our-News  {
  
             display: inline-block;
@@ -700,7 +703,7 @@ margin-left: -60%;
      #School-Achievement, p span {
         display: block;
          margin-top: 2%;
-        } 
+        }
         /*End of Achievements style*/
     #School-Overview {
         width:100%;
@@ -747,9 +750,9 @@ list-style-type: none;
            
         }
 #school-values li  img {
-    width: 7.5rem;
-     height: 6.25rem;
-
+    width: 6.5rem;
+     height: 5rem;
+ 
     }
    
        
