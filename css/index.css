@@ -267,7 +267,7 @@ main{
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-    width: 90%;
+    width: 150%;
     font-size: 0.8rem;
 }
 .login_form label{
@@ -289,7 +289,7 @@ main{
     background-color: var(--secondary-color);
     border: none;
     border-radius: 50px; /* Make the ends round */
-    width: 25%;
+    width: 10%;
     color: var(--primary-color);
     font-family: var(--primary-font);
     font-weight: bold;
@@ -417,7 +417,7 @@ display: flex;
 #slider-container
 {
     float: left;
-    width: 50%;
+    width: 80%;
     margin-top: 3rem;
 
 }
