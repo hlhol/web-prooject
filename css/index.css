@@ -686,7 +686,8 @@ margin-left: -60%;
             text-align: center;
         }
         
-        
+                #School-Achievement h3 {text-align: center;}
+
         #School-Achievement .our-News  {
 
             display: inline-block;
@@ -701,10 +702,10 @@ margin-left: -60%;
         #title-Achievements {
             text-align: center;
         }
-    /* #School-Achievement, p span {
+     #School-Achievement, p span {
         display: block;
          margin-top: 2%;
-        } */
+        } 
         /*End of Achievements style*/
     #School-Overview {
         width:100%;
@@ -739,7 +740,7 @@ margin-left: -60%;
         #our-Values ul  { 
             display: flex;
             flex-direction: row;
-        gap: 13%;
+        gap: 15%;
         margin-left: 5%;
            margin-right: 5%;
         }
@@ -751,8 +752,8 @@ list-style-type: none;
            
         }
 #school-values li  img {
-    width: 7.5rem;
-     height: 6.25rem;
+    width: 6.5rem;
+     height: 5rem;
 
     }
     
