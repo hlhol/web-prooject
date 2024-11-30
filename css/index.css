@@ -717,7 +717,7 @@ margin-left: -60%;
         /*End of Achievements style*/
     #School-Overview {
         width:100%;
-         height: 41rem;
+         height: 40rem;
           text-align: center;
           color: var(--secondary-color);
         }
@@ -728,7 +728,7 @@ margin-left: -60%;
  
         margin-top: 1rem;
          width: 90%;
-         height: 37rem;
+         height: 36rem;
           object-fit: cover;
          
         }
