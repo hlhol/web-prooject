@@ -155,7 +155,7 @@ main{
 }
  
 .About_us h2 {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
     font-family: var(--primary-font);
@@ -169,7 +169,7 @@ main{
 .aims h2{
     margin-top: 1rem;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     color: var(--secondary-color);
     font-family: var(--primary-font);
 }
@@ -682,9 +682,16 @@ margin-left: -60%;
         .our-News p {
             margin-top: 1rem;
             text-align: center;
+            font-size: 0.9rem;
         }
        
-                #School-Achievement h3 {text-align: center;}
+        #School-Achievement h3 
+        {
+            text-align: center;
+            font-size: 0.9rem;
+        
+        
+        }
  
         #School-Achievement .our-News  {
  
@@ -699,6 +706,8 @@ margin-left: -60%;
            
         #title-Achievements {
             text-align: center;
+            font-size: 1.5rem;
+            color:var(--secondary-color);
         }
      /* #School-Achievement, p span {
         display: block;
@@ -990,6 +999,7 @@ list-style-type: none;
     color: var(--secondary-color);
     font-family: var(--primary-font);
     text-align: center;
+    font-size: 0.9rem;
 }
  
 #School-Advisory-Committee p
