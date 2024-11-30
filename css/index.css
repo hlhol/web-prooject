@@ -818,8 +818,45 @@ list-style-type: none;
     transform: scale(1.05); /* Slight zoom effect */
     transition: transform 0.3s ease-in-out;
 }
- 
- 
+ /* here is the changes for the report structure for making of page i am not sure about them */
+/* Center the mockup images and text boxes */
+.mockup-container {
+    width: 85%; /* Set the container width so that everything is not full-screen */
+    margin: 0 auto; /* Center it horizontally */
+    margin-bottom: 40px; /* Add some space between sections */
+}
+
+.mockup-box {
+    text-align: center; /* Center the image inside the box */
+    margin: 20px 0; /* Space between image and text */
+}
+
+.mockup-img {
+    width: 90%; /* Adjust this value so the images aren't too large */
+    max-width: 800px; /* Maximum size of the image */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.mockup-textbox {
+    margin-top: 15px;
+    width: 90%; /* Make the text box width slightly smaller than the image */
+    max-width: 800px; /* Keep the text box and image aligned */
+    padding: 15px; /* Add padding inside the text box */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto; /* Center the text box */
+}
+
+/* Ensuring the paragraphs inside the text box don't go all the way across */
+.mockup-textbox p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* here end the changes i am not sure about them */
  
  
 /* Flexbox Layout for Content Rows */
