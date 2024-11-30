@@ -417,7 +417,7 @@ display: flex;
 #slider-container
 {
     margin: 0 auto;
-    width: 50%;
+    width: 62%;
     margin-top: 3rem;
 }
  
@@ -432,7 +432,7 @@ display: flex;
     border-radius: 0.1em;
     overflow:hidden;
     position: relative;
-    padding-bottom: 28.125rem;
+    padding-bottom: 31.125rem;
 }
 
 
