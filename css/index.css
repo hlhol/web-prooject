@@ -565,16 +565,16 @@ margin-left: -60%;
     }
 #page-title {
     background-color: var(--secondary-color);
-     text-align: center;
-      color: white;
-       width: 30%;
-        margin-top: -1% ;
-         padding: 0.313rem;
-          position: relative;
-           z-index: 2;
-            left: 50%;
-             transform: translateX(-50%);
-            }
+    text-align: center;
+    color: white;
+    width: 30%;
+    margin-top: -1% ;
+    padding: 0.313rem;
+    position: relative;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+}
             /* admissions page style */
  
 #Admissions-img img{object-position: 50% 35%;}
@@ -584,7 +584,7 @@ margin-left: -60%;
         text-align: center;
         height: 31.rem;
         max-width: 100%;
-    }  
+}  
     #tuition caption {
         margin-bottom: 1.5%;
          color: var(--secondary-color);
