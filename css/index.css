@@ -767,171 +767,165 @@ list-style-type: none;
        
     /* End of news style page*/
  
-        /* Start of Making of page */
- 
-        /* General Main Styling */
- 
- 
-.making-ofH2 {
-    color: #04428c;
-    margin: 20px 0;
+       /* Start of Making of page */
+
+/* General Main Styling */
+.making-ofH2, .justification h3, .our-names h3, .resources h3 {
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+    text-align: center;
 }
- 
+
 /* Welcome Message Styling */
 .welcome-message {
-    color: #f7982d;
-    text-align: left;
-    font-size: 24px;
-    margin-bottom: 20px;
-    font-weight: bold;
+    color: var(--sixth-color);
+    font-size: 1em;
+    margin: 1em;
+    font-family: var(--primary-font);
 }
- 
+
 /* Mock Up Grid Styling */
 .mockup-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
-    gap: 20px; /* Adds space between items */
-    margin: 20px auto;
-    max-width: 1200px; /* Controls the maximum width of the grid */
-    padding: 0 20px; /* Padding to prevent items from touching the edges */
+    grid-template-columns: repeat(auto-fit, minmax(18.75em, 1fr)); /* Responsive columns (300px = 18.75em) */
+    gap: 1.25em; /* Adds space between items (20px = 1.25em) */
+    margin: 1.25em auto; /* Margin around the grid */
+    max-width: 75em; /* Controls the maximum width of the grid (1200px = 75em) */
+    padding: 0 1.25em; /* Padding to prevent items from touching the edges */
     justify-items: center;
 }
- 
+
 .mockup-box {
-    background-color: #e0e0e0; /* Placeholder color */
-    border: 1px solid #ddd; /* Border around each box */
-    border-radius: 8px; /* Rounded corners */
+    background-color: transparent; /* Remove placeholder color */
+    border: none; /* Remove border around the box */
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden; /* Keeps the content inside the box */
 }
- 
+
 .mockup-box img {
     width: 100%; /* Ensures the image takes full width */
     height: auto; /* Maintains the aspect ratio */
-    object-fit: cover; /* Ensures the image covers the box area */
+    object-fit: contain; /* Ensures the image fits without cropping */
 }
- 
+
 /* Optional: Add Hover Effect */
 .mockup-box:hover {
     transform: scale(1.05); /* Slight zoom effect */
     transition: transform 0.3s ease-in-out;
 }
- /* here is the changes for the report structure for making of page i am not sure about them */
+
 /* Center the mockup images and text boxes */
 .mockup-container {
     width: 85%; /* Set the container width so that everything is not full-screen */
-    margin: 0 auto; /* Center it horizontally */
-    margin-bottom: 40px; /* Add some space between sections */
+    margin: 0 auto;
+    margin-bottom: 2.5em; /* Add space between sections (40px = 2.5em) */
 }
 
 .mockup-box {
-    text-align: center; /* Center the image inside the box */
-    margin: 20px 0; /* Space between image and text */
+    text-align: center;
+    margin: 1.25em 0; /* Space between image and text (20px = 1.25em) */
 }
 
 .mockup-img {
     width: 90%; /* Adjust this value so the images aren't too large */
-    max-width: 800px; /* Maximum size of the image */
+    max-width: 50em; /* Maximum size of the image (800px = 50em) */
     display: block;
-    margin: 0 auto; /* Center the image horizontally */
+    margin: 0 auto;
 }
 
 .mockup-textbox {
-    margin-top: 15px;
+    margin-top: 0.9375em; /* Space above text box (15px = 0.9375em) */
     width: 90%; /* Make the text box width slightly smaller than the image */
-    max-width: 800px; /* Keep the text box and image aligned */
-    padding: 15px; /* Add padding inside the text box */
+    max-width: 50em; /* Keep the text box and image aligned (800px = 50em) */
+    padding: 0.9375em; /* Padding inside the text box (15px = 0.9375em) */
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 0.3125em; /* Rounded corners (5px = 0.3125em) */
     margin-left: auto;
-    margin-right: auto; /* Center the text box */
+    margin-right: auto;
+    text-align: left;
 }
 
-/* Ensuring the paragraphs inside the text box don't go all the way across */
 .mockup-textbox p {
     margin: 0;
     line-height: 1.6;
-    font-size: 16px;
+    font-size: 1em; /* Default font size */
 }
 
-/* here end the changes i am not sure about them */
- 
- 
 /* Flexbox Layout for Content Rows */
 .content-row {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 20px; /* Adds spacing between items */
-    flex-wrap: wrap; /* Allows wrapping on smaller screens */
-    margin: 20px 0;
+    align-content: center;
+    gap: 1.25em; /* 20px = 1.25em */
+    flex-wrap: wrap;
+    margin: 1.25em 0; /* 20px = 1.25em */
 }
- 
+
 .content-box {
-    width: 45%; /* Default width for larger screens */
-    margin: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    width: 45%;
+    margin: 0.625em; /* 10px = 0.625em */
+    padding: 1.25em; /* 20px = 1.25em */
+    box-shadow: 0 0.25em 0.375em rgba(0, 0, 0, 0.1); /* 4px = 0.25em, 6px = 0.375em */
+    border-radius: 0.5em; /* 8px = 0.5em */
     background-color: #f9f9f9;
     text-align: center;
 }
- 
+
 .text-box p {
     text-align: left;
     margin: 0;
 }
- 
+
 .image-box img {
     max-width: 100%;
-    border-radius: 8px;
-    height: auto; /* Maintain aspect ratio */
+    border-radius: 0.5em; /* 8px = 0.5em */
+    height: auto;
 }
- 
+
 .names-list {
-    list-style-type: none; /* Removes default bullet points */
-    padding: 0; /* Removes default padding */
-    margin: 20px auto; /* Centers the list */
-    text-align: center; /* Aligns the text to the center */
-    font-size: 18px;
+    list-style-type: none;
+    padding: 0;
+    margin: 1.25em auto; /* 20px = 1.25em */
+    text-align: center;
+    font-size: 1.125em; /* 18px = 1.125em */
     font-weight: bold;
-    color: #333; /* Neutral color for the names */
+    color: #333;
 }
- 
+
 .names-list li {
-    margin: 10px 0; /* Adds spacing between names */
+    margin: 0.625em 0; /* 10px = 0.625em */
 }
- 
+
 /* Resources Table */
 .resources-table {
-    margin: 20px auto;
+    margin: 1.25em auto; /* 20px = 1.25em */
     width: 80%;
     border-collapse: collapse;
-    margin-top: 20px;
 }
- 
+
 .resources-table th,
 .resources-table td {
-    border: 1px solid #ddd;
-    padding: 10px;
+    border: 0.0625em solid #ddd; /* 1px = 0.0625em */
+    padding: 0.625em; /* 10px = 0.625em */
     text-align: left;
 }
- 
+
 .resources-table th {
     background-color: #f4f4f4;
     font-weight: bold;
 }
- 
+
 .resources-table a {
     color: #0073e6;
     text-decoration: none;
 }
- 
+
 .resources-table a:hover {
     text-decoration: underline;
 }
+
  
 /* Responsive Adjustments */
 @media (max-width: 768px) {
