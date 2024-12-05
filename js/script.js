@@ -2,14 +2,15 @@
 
 var counter = 1;
 
+//select ratio followed with the current counter
 setInterval(() => { 
     document.getElementById('radio' + counter).checked = true;
     counter++;
 
-    if (counter > 4) { 
-        counter = 1; 
+    if (counter > 4) { // If the counter exceeds 4 
+        counter = 1; //reset it to 1
     }
-}, 3000); 
+}, 3000); // 3000 milliseconds equals 3 seconds
 
 const handelLogin = () => {    
     let firstName = document.getElementById('first_name').value; 
