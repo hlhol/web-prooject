@@ -11,10 +11,10 @@ setInterval(() => { //select ratio followed with the current counter
 }, 3000); // 3000 milliseconds equals 3 seconds
 
 const handelLogin = () => {    
-    let firstName = document.getElementById('firstName').value; 
-    let lastName = document.getElementById("lastName").value;
-    let email = document.getElementById("email").value;
-    let mobile = document.getElementById("mobileNum").value;
+    let firstName = document.getElementById('first_name').value; 
+    let lastName = document.getElementById("last_name").value;
+    let email = document.getElementById("emailAddress").value;
+    let mobile = document.getElementById("Mobile_Number").value;
 
     if (firstName.length && lastName.length > 2) {
         if (email.includes("@") && email.includes(".")) {
