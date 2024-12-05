@@ -1,14 +1,15 @@
 //Slider
 
-var counter=1;
-setInterval(() => { //select ratio followed with the current counter
+var counter = 1;
+
+setInterval(() => { 
     document.getElementById('radio' + counter).checked = true;
     counter++;
 
-    if (counter > 4) {  // If the counter exceeds 4 
-        counter = 1; //reset it to 1
+    if (counter > 4) { 
+        counter = 1; 
     }
-}, 3000); // 3000 milliseconds equals 3 seconds
+}, 3000); 
 
 const handelLogin = () => {    
     let firstName = document.getElementById('first_name').value; 
