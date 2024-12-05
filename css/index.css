@@ -1098,6 +1098,8 @@ margin-left: -60%;
     font-size: 0.94rem;
     line-height: 1.2;
 }
+
+
  
 #Booster-Clubs p
 {
@@ -1124,8 +1126,7 @@ margin-left: -60%;
     background-color:var(--seventh-color);
     padding: 1rem;
     display: inline-block;
-    border-radius: 0.8rem;
-    
+    border-radius: 0.8rem;   
 }
  
 .img_sac {
