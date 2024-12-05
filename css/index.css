@@ -255,7 +255,7 @@ main{
     padding: 0.5rem;
 }
  
-#mobilenumber,#username{
+#Mobile_Number{
     display: flex;
     flex-direction: column;
 }
