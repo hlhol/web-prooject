@@ -698,94 +698,92 @@ margin-left: -60%;
     text-align: left;
 }
        
-        .our-News p {
-            margin-top: 1rem;
-            text-align: center;
-            font-size: 0.9rem;
-        }
+.our-News p {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
        
-        #School-Achievement h3 
-        {
-            text-align: center;
-            font-size: 0.9rem;
-        
-        
-        }
+#School-Achievement h3 {
+    text-align: center;
+    font-size: 0.9rem;
+}
  
-        #School-Achievement .our-News  {
- 
-            display: inline-block;
-            vertical-align: top;
-            max-width: 28.66%;
-           margin-bottom: 5%;
-           margin-top: 3%;
-   
- 
-        }
+#School-Achievement .our-News  {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 28.66%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
            
-        #title-Achievements {
-            text-align: center;
-            font-size: 1.5rem;
-            color:var(--secondary-color);
-        }
-     /* #School-Achievement, p span {
+#title-Achievements {
+    text-align: center;
+    font-size: 1.5rem;
+    color:var(--secondary-color);
+}
+     
+/* #School-Achievement, p span {
         display: block;
          margin-top: 2%;
-        } */
-        /*End of Achievements style*/
-    #School-Overview {
-        width:100%;
-         height: 40rem;
-          text-align: center;
-          color: var(--secondary-color);
-        }
-        /* video style*/
-    #Video
-    {
-        margin: auto;
- 
-        margin-top: 1rem;
-         width: 90%;
-         height: 36rem;
-          object-fit: cover;
-         
-        }
-    #school-values {
-        background-color: #cddff6;
-        padding-top: 1rem;
-         width: 100%;
-         height: 12rem;
-         margin-top: 7%;
-         margin-bottom: 4%;
-        }
-    #school-values h2 {
-        text-align: center;
-         margin-bottom: 2.5%;
-         color: var(--secondary-color);
-        }
-        #our-Values ul  {
-            display: flex;
-            flex-direction: row;
-        gap: 15%;
-        margin-left: 5%;
-           margin-right: 5%;
-        }
-    #school-values li {
-        flex-direction: column;
-text-align: center;
-margin: auto;
-list-style-type: none;
-           
-        }
-#school-values li  img {
-    width: 4rem;
- 
+} */
+
+/*End of Achievements style*/
+    
+#School-Overview {
+    width:100%;
+    height: 40rem;
+    text-align: center;
+    color: var(--secondary-color);
+}
+    
+/* video style*/
+    
+#Video{
+    margin: auto;
+    margin-top: 1rem;
+    width: 90%;
+    height: 36rem;
+    object-fit: cover;
+}
+
+#school-values {
+    background-color: #cddff6;
+    padding-top: 1rem;
+    width: 100%;
+    height: 12rem;
+    margin-top: 7%;
+    margin-bottom: 4%;
+}
+    
+#school-values h2 {
+    text-align: center;
+    margin-bottom: 2.5%;
+    color: var(--secondary-color);
+}
+
+#our-Values ul  {
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+    
+#school-values li {
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    list-style-type: none;
+}
+
+#school-values li img {
+    width: 4rem; 
     }
    
-       
-    /* End of news style page*/
+/* End of news style page*/
  
-       /* Start of Making of page */
+/* Start of Making of page */
 
 /* General Main Styling */
 .making-ofH2, .justification h2, .our-names h2, .resources h2 {
