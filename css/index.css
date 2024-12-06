@@ -978,26 +978,26 @@ margin-left: -60%;
     .content-row {
         flex-direction: column; /* Stacks items vertically */
         align-items: center; /* Centers items in a column */
-    }u
+    }
  
     .resources-table {
         width: 90%; /* Slightly narrower on smaller screens */
-        font-size: 14px; /* Adjust font size for smaller devices */
+        font-size: 0.875em; /* 14px = 0.875em */
     }
  
     #welcome-message {
-        font-size: 20px; /* Reduce font size for the welcome message */
+        font-size: 1.25em; /* 20px = 1.25em */
     }
 }
  
 @media (max-width: 480px) {
     .resources-table {
         width: 100%; /* Full width on very small devices */
-        font-size: 12px; /* Further reduce font size */
+        font-size: 0.75em; /* 12px = 0.75em */
     }
  
     .making-ofH2 {
-        font-size: 18px; /* Smaller header size for small screens */
+        font-size: 1.125em; /* 18px = 1.125em */
     }
 }
  
