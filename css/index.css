@@ -147,7 +147,7 @@ main{
 }
  
  
-.About_us p span, #points span {
+.About_us p span, #points span, #campusfacilities1 span, #campusfacilities span {
     color: var(--sixth-color);
     font-style: italic;
     font-weight: bold;
