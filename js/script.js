@@ -84,7 +84,7 @@ const showNotification = (message, isSuccess = true) => {
 
     notification.classList.remove("hidden");
     notification.style.opacity = "5";
-    notification.style.top = "20px";
+    notification.style.top = "1.25em";
 
     setTimeout(() => {
         hideNotification();
@@ -94,7 +94,7 @@ const showNotification = (message, isSuccess = true) => {
 const hideNotification = () => {
     const notification = document.getElementById("notification");
     notification.style.opacity = "0";
-    notification.style.top = "0px";
+    notification.style.top = "0em";
     setTimeout(() => {
         notification.classList.add("hidden");
     }, 300); 
